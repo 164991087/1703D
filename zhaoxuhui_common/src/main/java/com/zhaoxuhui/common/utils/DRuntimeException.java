@@ -1,7 +1,8 @@
-package com.bawei.week2;
-
+package com.zhaoxuhui.common.utils;
+//自定义运行时异常类
 public class DRuntimeException extends RuntimeException{
 
+	
 	private static final long serialVersionUID = 1L;
 
 	public DRuntimeException() {
@@ -28,7 +29,6 @@ public class DRuntimeException extends RuntimeException{
 		super(cause);
 		// TODO Auto-generated constructor stub
 	}
-	
-	
+
 	
 }
